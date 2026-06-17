@@ -19,7 +19,7 @@ const config= ({
     //browserName:'webkit',
     //browserName:'firefox',
     browserName:'chromium',
-    headless:false,
+    headless:true,
     screenshot: 'on', // This helps confirm the report is working
     trace:'retain-on-failure',
   },

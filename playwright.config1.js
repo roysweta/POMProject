@@ -21,7 +21,7 @@ const config = ({
       name: 'chromium',
       use: {
         browserName: 'chromium',
-        headless: false,
+        headless: true,
         screenshot: 'on', // This helps confirm the report is working
         trace: 'retain-on-failure',
       }
