@@ -28,9 +28,7 @@ Given('a login to web site with {string} and {string}',{ timeout: 30 * 1000 }, a
          await this.page.locator('#login').click();
           await this.page.waitForLoadState('networkidle', { timeout: 40000, });
         await expect(this.page.getByRole('alert', { name: /Incorrect email or password/ })).toBeVisible();
-        // expect(this.page.getByRole('alert', { name: /Incorrect email or password/ })).toBeTruthy();
-
-       //await this.page.waitForLoadState('networkidle', { timeout: 40000, });
+        
  
 });
 
