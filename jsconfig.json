@@ -1,0 +1,8 @@
+{
+  "typeAcquisition": {
+    "include": ["playwright", "node"]
+  },
+  "compilerOptions": {
+    "checkJs": true
+  }
+}
